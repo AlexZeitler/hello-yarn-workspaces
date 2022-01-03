@@ -26,3 +26,15 @@ yarn init -y
 cd packages/ui-components
 yarn init -y
 ```
+
+```bash
+yarn dlx husky-init --yarn2 && yarn
+yarn husky add .husky/commit-msg 'yarn commitlint --edit $1'
+yarn add --dev @commitlint/cli @commitlint/config-conventional
+```
+
+### add commitlint.config.js
+
+```js
+module.exports = { extends: ["@commitlint/config-conventional"] };
+```
