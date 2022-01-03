@@ -38,3 +38,10 @@ yarn add --dev @commitlint/cli @commitlint/config-conventional
 ```js
 module.exports = { extends: ["@commitlint/config-conventional"] };
 ```
+
+### add ui packages
+
+```bash
+yarn workspace ui add react react-dom
+yarn workspace ui add --dev @types/react tailwindcss@latest autoprefixer@latest postcss@latest vite typescript @vitejs/plugin-react @tailwindcss/forms @types/react-dom
+```
