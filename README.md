@@ -15,3 +15,14 @@ Mistakes will be made, thus lessons learned.
 corepack enable
 yarn init -2
 ```
+
+```bash
+cd apps/ui
+yarn init -y
+
+cd apps/api
+yarn init -y
+
+cd packages/ui-components
+yarn init -y
+```
