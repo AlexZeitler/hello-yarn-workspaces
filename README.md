@@ -49,3 +49,16 @@ yarn workspace ui add --dev @types/react tailwindcss@latest autoprefixer@latest 
 ### VS Code support
 
 [yarn workspaces monorepo with vite, react, tailwind - VS Code fails to resolve packages](https://stackoverflow.com/questions/70572380/yarn-workspaces-monorepo-with-vite-react-tailwind-vs-code-fails-to-resolve-p)
+
+### Add express app
+
+```bash
+yarn workspace api add --dev @types/express typescript ts-node
+```
+
+### Add `build` and `start` scripts for API
+
+```bash
+yarn workspace api build
+yarn workspace api start
+```

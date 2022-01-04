@@ -18,6 +18,7 @@
   "scripts": {
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "postpublish": "pinst --enable",
+    "start:api": "yarn workspace api start"
   }
 }
