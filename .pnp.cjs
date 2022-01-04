@@ -52,7 +52,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@commitlint/cli", "npm:16.0.1"],
             ["@commitlint/config-conventional", "npm:16.0.0"],
-            ["husky", "npm:7.0.4"]
+            ["@types/prettier", "npm:2.4.2"],
+            ["@types/typescript", "npm:2.0.0"],
+            ["husky", "npm:7.0.4"],
+            ["prettier", "npm:2.5.1"],
+            ["ts-node", "virtual:605e07c254298730c2ac4d56931e4f99d7671819ef386e7edb967dd314326535c71b98718a7c19b760e9c51bfcda8c2072e2cc4ffcd10c54000fc4098ee51e38#npm:10.4.0"],
+            ["typescript", "patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=493e53"]
           ],
           "linkType": "SOFT",
         }]
@@ -851,6 +856,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@types/prettier", [
+        ["npm:2.4.2", {
+          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.4.2-290f200354-76e230b2d1.zip/node_modules/@types/prettier/",
+          "packageDependencies": [
+            ["@types/prettier", "npm:2.4.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@types/prop-types", [
         ["npm:15.7.4", {
           "packageLocation": "./.yarn/cache/@types-prop-types-npm-15.7.4-592896a9fe-ef6e1899e5.zip/node_modules/@types/prop-types/",
@@ -887,6 +901,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.2-ba3a7d8c68-b6b4dcfeae.zip/node_modules/@types/scheduler/",
           "packageDependencies": [
             ["@types/scheduler", "npm:0.16.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/typescript", [
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/@types-typescript-npm-2.0.0-4639092a54-657dd1cb51.zip/node_modules/@types/typescript/",
+          "packageDependencies": [
+            ["@types/typescript", "npm:2.0.0"],
+            ["typescript", "patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=493e53"]
           ],
           "linkType": "HARD",
         }]
@@ -2255,7 +2279,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hello-yarn-workspaces", "workspace:."],
             ["@commitlint/cli", "npm:16.0.1"],
             ["@commitlint/config-conventional", "npm:16.0.0"],
-            ["husky", "npm:7.0.4"]
+            ["@types/prettier", "npm:2.4.2"],
+            ["@types/typescript", "npm:2.0.0"],
+            ["husky", "npm:7.0.4"],
+            ["prettier", "npm:2.5.1"],
+            ["ts-node", "virtual:605e07c254298730c2ac4d56931e4f99d7671819ef386e7edb967dd314326535c71b98718a7c19b760e9c51bfcda8c2072e2cc4ffcd10c54000fc4098ee51e38#npm:10.4.0"],
+            ["typescript", "patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=493e53"]
           ],
           "linkType": "SOFT",
         }]
@@ -3330,6 +3359,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["prettier", [
+        ["npm:2.5.1", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.5.1-58b195b509-21b9408476.zip/node_modules/prettier/",
+          "packageDependencies": [
+            ["prettier", "npm:2.5.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["promise-inflight", [
         ["npm:1.0.1", {
           "packageLocation": "./.yarn/cache/promise-inflight-npm-1.0.1-5bb925afac-2274948309.zip/node_modules/promise-inflight/",
@@ -4029,6 +4067,41 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/swc__core", null],
             ["@types/swc__wasm", null],
             ["@types/typescript", null],
+            ["acorn", "npm:8.7.0"],
+            ["acorn-walk", "npm:8.2.0"],
+            ["arg", "npm:4.1.3"],
+            ["create-require", "npm:1.1.1"],
+            ["diff", "npm:4.0.2"],
+            ["make-error", "npm:1.3.6"],
+            ["typescript", "patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=493e53"],
+            ["yn", "npm:3.1.1"]
+          ],
+          "packagePeers": [
+            "@swc/core",
+            "@swc/wasm",
+            "@types/node",
+            "@types/swc__core",
+            "@types/swc__wasm",
+            "@types/typescript",
+            "typescript"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:605e07c254298730c2ac4d56931e4f99d7671819ef386e7edb967dd314326535c71b98718a7c19b760e9c51bfcda8c2072e2cc4ffcd10c54000fc4098ee51e38#npm:10.4.0", {
+          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-f55671169b/0/cache/ts-node-npm-10.4.0-04cb6e2279-3933ac0a93.zip/node_modules/ts-node/",
+          "packageDependencies": [
+            ["ts-node", "virtual:605e07c254298730c2ac4d56931e4f99d7671819ef386e7edb967dd314326535c71b98718a7c19b760e9c51bfcda8c2072e2cc4ffcd10c54000fc4098ee51e38#npm:10.4.0"],
+            ["@cspotcode/source-map-support", "npm:0.7.0"],
+            ["@swc/core", null],
+            ["@swc/wasm", null],
+            ["@tsconfig/node10", "npm:1.0.8"],
+            ["@tsconfig/node12", "npm:1.0.9"],
+            ["@tsconfig/node14", "npm:1.0.1"],
+            ["@tsconfig/node16", "npm:1.0.2"],
+            ["@types/node", null],
+            ["@types/swc__core", null],
+            ["@types/swc__wasm", null],
+            ["@types/typescript", "npm:2.0.0"],
             ["acorn", "npm:8.7.0"],
             ["acorn-walk", "npm:8.2.0"],
             ["arg", "npm:4.1.3"],

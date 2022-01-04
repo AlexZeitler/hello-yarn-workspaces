@@ -45,3 +45,7 @@ module.exports = { extends: ["@commitlint/config-conventional"] };
 yarn workspace ui add react react-dom
 yarn workspace ui add --dev @types/react tailwindcss@latest autoprefixer@latest postcss@latest vite typescript @vitejs/plugin-react @tailwindcss/forms @types/react-dom
 ```
+
+### VS Code support
+
+[yarn workspaces monorepo with vite, react, tailwind - VS Code fails to resolve packages](https://stackoverflow.com/questions/70572380/yarn-workspaces-monorepo-with-vite-react-tailwind-vs-code-fails-to-resolve-p)

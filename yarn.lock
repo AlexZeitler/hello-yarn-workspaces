@@ -643,6 +643,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prettier@npm:^2.4.2":
+  version: 2.4.2
+  resolution: "@types/prettier@npm:2.4.2"
+  checksum: 76e230b2d11028af11fe12e09b2d5b10b03738e9abf819ae6ebb0f78cac13d39f860755ce05ac3855b608222518d956628f5d00322dc206cc6d1f2d8d1519f1e
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.4
   resolution: "@types/prop-types@npm:15.7.4"
@@ -674,6 +681,15 @@ __metadata:
   version: 0.16.2
   resolution: "@types/scheduler@npm:0.16.2"
   checksum: b6b4dcfeae6deba2e06a70941860fb1435730576d3689225a421280b7742318d1548b3d22c1f66ab68e414f346a9542f29240bc955b6332c5b11e561077583bc
+  languageName: node
+  linkType: hard
+
+"@types/typescript@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@types/typescript@npm:2.0.0"
+  dependencies:
+    typescript: "*"
+  checksum: 657dd1cb516dd4e99998538dca3f9be3a04edd761c5fb1a579472c4e78ba81f702142506356f0d312f8f696c7432f066faad402dd571da652f4b27365452a8b5
   languageName: node
   linkType: hard
 
@@ -1892,7 +1908,12 @@ __metadata:
   dependencies:
     "@commitlint/cli": ^16.0.1
     "@commitlint/config-conventional": ^16.0.0
+    "@types/prettier": ^2.4.2
+    "@types/typescript": ^2.0.0
     husky: ^7.0.4
+    prettier: ^2.5.1
+    ts-node: ^10.4.0
+    typescript: ^4.5.4
   languageName: unknown
   linkType: soft
 
@@ -2824,6 +2845,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "prettier@npm:2.5.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 21b9408476ea1c544b0e45d51ceb94a84789ff92095abb710942d780c862d0daebdb29972d47f6b4d0f7ebbfb0ffbf56cc2cfa3e3e9d1cca54864af185b15b66
+  languageName: node
+  linkType: hard
+
 "promise-inflight@npm:^1.0.1":
   version: 1.0.1
   resolution: "promise-inflight@npm:1.0.1"
@@ -3468,7 +3498,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.4.3, typescript@npm:^4.5.4":
+"typescript@npm:*, typescript@npm:^4.4.3, typescript@npm:^4.5.4":
   version: 4.5.4
   resolution: "typescript@npm:4.5.4"
   bin:
@@ -3478,7 +3508,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.4#~builtin<compat/typescript>":
   version: 4.5.4
   resolution: "typescript@patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=493e53"
   bin:
