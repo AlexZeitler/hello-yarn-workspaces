@@ -4736,7 +4736,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:packages/ui-components", {
           "packageLocation": "./packages/ui-components/",
           "packageDependencies": [
-            ["ui-components", "workspace:packages/ui-components"]
+            ["ui-components", "workspace:packages/ui-components"],
+            ["@types/react", "npm:17.0.38"],
+            ["typescript", "patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=493e53"]
           ],
           "linkType": "SOFT",
         }]
